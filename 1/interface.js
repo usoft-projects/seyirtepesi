@@ -49,16 +49,6 @@ function init(){
               ' <span class="menu__detail">' + datas[index_key][k].name + '</span>'+
               '<span class="menu__preci">'+datas[index_key][k].price  +' TL</span>'+
               '</div></div><br>'
-                // list_categories.innerHTML += ' <div class="col-lg-6">'+
-                // '<div class="d-flex align-items-center">'+
-                // // '<div class="w-100 d-flex flex-column text-start ps-4">'+
-                // '<div class="w-100 d-flex flex-column text-start">'+
-                // '<h5 class="d-flex justify-content-between pb-2">'+
-                //     '<span>'+datas[index_key][k].name+'</span>'+
-                //     '<span class="text-primary">'+datas[index_key][k].price+' TL</span>'+
-                // '</h5>'+
-                // '<small class="fst-italic border-bottom ">'+datas[index_key][k].details+'</small>'+
-                // '</div></div></div> <br> <br>'
             }
             // list_categories.innerHTML += '</div><br>'
             list_categories.innerHTML += '<br>'
