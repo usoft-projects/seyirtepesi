@@ -41,7 +41,7 @@ function init(){
             console.log(datas[0][i])
             var index_key = keys.indexOf(datas[0][i])
             console.log(index_key)
-            list_categories.innerHTML += '<span class="section-subtitle" id="'+ datas[0][i]+'">' + datas[0][i] + '</span>'
+            list_categories.innerHTML += '<br id="'+ datas[0][i]+'"><br><br><span class="section-subtitle">' + datas[0][i] + '</span>'
             for(var k=0; k<datas[index_key].length; k++){
               list_categories.innerHTML += '<div class="menu__container">' +
               ' <div class="menu__content">' +
@@ -63,7 +63,7 @@ function init(){
             // list_categories.innerHTML += '</div><br>'
             list_categories.innerHTML += '<br>'
         }
-        list_categories.innerHTML += '</div></div>'
+        // list_categories.innerHTML += '</div></div>'
        
     },function (error) {
         console.log("Error: " + error.code);
