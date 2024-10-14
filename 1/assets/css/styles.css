@@ -148,7 +148,8 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
+  background-color: #393434;
 }
 
 /*========== NAV ==========*/
@@ -261,7 +262,7 @@ img{
 }
 
 .home__subtitle{
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-4);
 }
@@ -344,10 +345,10 @@ img{
 }
 
 .menu__img{
-  width: 100%;
+  width: 143px;
   align-self: center;
   margin-bottom: var(--mb-2);
-  height: 80%;
+  height: 95px;
 }
 
 .menu__name, .menu__preci{

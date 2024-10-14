@@ -29,8 +29,8 @@ function init(){
         // console.log(Object.values(test))
         categories.innerHTML = ''
         for(var i=0;i<(datas[0].length);i++){
-            categories.innerHTML +=  '<div class="menu__content"><img src="assets/img/'+datas[0][i]+'.png" alt="" class="menu__img">'+
-            '<h3 class="menu__name">' + datas[0][i] + '</h3></div>'
+            categories.innerHTML +=  '<a href="#'+ datas[0][i]+'"><div class="menu__content"><img src="assets/img/'+datas[0][i]+'.png" alt="" class="menu__img">'+
+            '<h3 class="menu__name">' + datas[0][i] + '</h3> </div></a>'
         }
         
     
@@ -41,7 +41,7 @@ function init(){
             console.log(datas[0][i])
             var index_key = keys.indexOf(datas[0][i])
             console.log(index_key)
-            list_categories.innerHTML += '<span class="section-subtitle">' + datas[0][i] + '</span>'
+            list_categories.innerHTML += '<span class="section-subtitle" id="'+ datas[0][i]+'">' + datas[0][i] + '</span>'
             for(var k=0; k<datas[index_key].length; k++){
               list_categories.innerHTML += '<div class="menu__container">' +
               ' <div class="menu__content">' +
