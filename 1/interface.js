@@ -45,8 +45,8 @@ function init(){
             for(var k=0; k<datas[index_key].length; k++){
               list_categories.innerHTML += '<div class="menu__container">' +
               ' <div class="menu__content">' +
-              '<h3 class="menu__name">' + datas[index_key][k].details + '</h3>'+
-              ' <span class="menu__detail">' + datas[index_key][k].name + '</span>'+
+              '<h3 class="menu__name">' + datas[index_key][k].name + '</h3>'+
+              ' <span class="menu__detail">' + datas[index_key][k].details + '</span>'+
               '<span class="menu__preci">'+datas[index_key][k].price  +' TL</span>'+
               '</div></div><br>'
             }
