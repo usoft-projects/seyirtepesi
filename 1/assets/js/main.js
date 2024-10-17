@@ -64,6 +64,10 @@ const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'bx-sun'
 
+localStorage.setItem('selected-theme', 'dark')
+localStorage.setItem('selected-icon', 'bx-moon')
+
+
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem('selected-theme')
 const selectedIcon = localStorage.getItem('selected-icon')
